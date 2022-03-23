@@ -4,7 +4,7 @@ pipeline {
   stages {
     stage('Checkout SCM') {
             steps {
-                sh 'rm -rf test'
+                
                  git 'https://github.com/sureshguvva/sample-java-programs.git'
             }
     }
