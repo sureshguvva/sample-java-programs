@@ -17,7 +17,7 @@ pipeline {
     }
       stage('docker') {
         steps { 
-        sh 'docker pull nginx'
+        sh 'docker pull tomcat'
         }
       }
     }
